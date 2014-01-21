@@ -22,7 +22,7 @@ While shipping the project itself will likely take you less than 15 minutes,
 this guide is very in-depth and will take some time to read it.
 
 In addition to this guide, there is also an open-source repo on
-Github. A full-length screencast for [embercasts](http://embercasts.com) is up next. This tutorial
+Github. A full-length screencast for [embercasts](http://embercasts.com) is up next. Im also giving a talk about this project n Thursday 23rd at the Ember ATX meetup. This tutorial
 will be kept up-to-date with Ember App Kit, and expanded to cover other
 concepts in the future. To quickly learn more about me, I'm at [ulisesrmzroche.info](http://ulisesrmzroche.info).
 
@@ -47,7 +47,13 @@ refresh the page for you.
 
 [image of what the app looks like now]
 
+
 Live Reload is one of the many features that Ember App Kit provides for
 you out of the box. Another is 1st class support for TDD.
 
 # Our First Tests
+
+
+# Contributors
+ulisesrmzroche
+andersonbarutti
