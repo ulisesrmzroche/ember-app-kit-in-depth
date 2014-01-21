@@ -1,11 +1,6 @@
 ember-tumblr-blog
 =================
 
-i
-# README
-
-## How to Build A Highly Ambitious Web Application With Ember App Kit In Less Than 15 Minutes
-
 First, you'll want to bookmark the [Ember App Kit](https://github.com/stefanpenner/ember-app-kit)
 project. EAK is a pipeline for building, testing, and deploying single-page web applications
 with the [Ember.js](http://ember.js.com) framework that's been blessed
