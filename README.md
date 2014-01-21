@@ -45,7 +45,7 @@ Open `app/templates/application.hbs` and change the title to whatever you want. 
 and switch back to your browser, letting Live Reload automoatically
 refresh the page for you.
 
-![Hello World](/public/assets/images/thumb-1.png "Hello World")
+![Hello World](/public/assets/images/thumb-2.png "Hello World")
 
 
 Live Reload is one of the many features that Ember App Kit provides for
