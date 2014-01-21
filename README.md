@@ -55,5 +55,6 @@ you out of the box. Another is 1st class support for TDD.
 
 
 # Contributors
-ulisesrmzroche
-andersonbarutti
+
+* ulisesrmzroche
+* andersonbarutti
