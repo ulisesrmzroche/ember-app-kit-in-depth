@@ -36,17 +36,16 @@ You'll need to have [Git](http://git-scm.com/),
 Now, [download the
 project](https://github.com/stefanpenner/ember-app-kit/archive/master.zip)
 and run `npm install` to setup all of its required dependencies. Those
-managed by Bower are setup by a post-install hook. Finally,
-run `grunt server` and point your browser to [http://localhost:8000](http://localhost:8000).
+managed by Bower are setup by a post-install hook into the
+`/vendor` directory. Finally, run `grunt server` and point your browser to [http://localhost:8000](http://localhost:8000).
 
-[[image of what the app looks like]]
+![Hello World](/public/assets/images/thumb-1.jpg "Hello World")
 
-Open app/templates/index.hbs and change the header to whatever you want. Save
-the file and switch back to your browser, letting Live Reload automatically
+Open `app/templates/application.hbs` and change the title to whatever you want. Then, save the file
+and switch back to your browser, letting Live Reload automoatically
 refresh the page for you.
 
-[image of what the app looks like now]
-
+![Hello World](/public/assets/images/thumb-2.jpg "Hello World")
 
 Live Reload is one of the many features that Ember App Kit provides for
 you out of the box. Another is 1st class support for TDD.
