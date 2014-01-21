@@ -1,4 +1,4 @@
-ember-tumblr-blog
+Ember App Kit in Depth
 =================
 
 First, you'll want to bookmark the [Ember App Kit](https://github.com/stefanpenner/ember-app-kit)
@@ -22,9 +22,9 @@ While shipping the project itself will likely take you less than 15 minutes,
 this guide is very in-depth and will take some time to read it.
 
 In addition to this guide, there is also an open-source repo on
-Github. A full-length screencast for [embercasts](http://embercasts.com) is up next. Im also giving a talk about this project n Thursday 23rd at the Ember ATX meetup. This tutorial
+Github. This tutorial
 will be kept up-to-date with Ember App Kit, and expanded to cover other
-concepts in the future. To quickly learn more about me, I'm at [ulisesrmzroche.info](http://ulisesrmzroche.info).
+concepts in the future. A full-length screencast for [embercasts](http://embercasts.com) is up next. Im also giving a talk about this project on Thursday 23rd at the Ember ATX meetup. To quickly learn more about me, I'm at [ulisesrmzroche.info](http://ulisesrmzroche.info).
 
 ## Quick Start
 
