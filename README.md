@@ -35,13 +35,12 @@ You'll need to have [Git](http://git-scm.com/),
 
 Now, [download the
 project](https://github.com/stefanpenner/ember-app-kit/archive/master.zip)
-and run `npm install` to setup all of its required dependencies. Those
-managed by Bower are setup by a post-install hook into the
-`/vendor` directory. Finally, run `grunt server` and point your browser to [http://localhost:8000](http://localhost:8000).
+and run `npm install` to setup all of its required dependencies. Finally, run `grunt server` and point your browser to [http://localhost:8000](http://localhost:8000).
 
 ![Hello World](/public/assets/images/thumb-1.png "Hello World")
 
-Open `app/templates/application.hbs` and change the title to whatever you want. Then, save the file
+We have a functional, ember application in less than four sentences. One
+quick thing. Open `app/templates/application.hbs` and change the title to whatever you want. Then, save the file
 and switch back to your browser, letting Live Reload automatically
 refresh the page for you.
 
@@ -63,9 +62,9 @@ There is also an API stub that you can use as a functioning REST spec for your
 real backend.
 
 Until recently, the test suite was backed by [the Karma test
-runner](http://karma-runner.github.io/0.10/index.html) but was recently
+runner](http://karma-runner.github.io/0.10/index.html) but was 
 [switched to
-Testem](https://github.com/stefanpenner/ember-app-kit/pull/292) courtesy of [@cavnev (Eric Berry)](https://github.com/cavneb). Testem offers a better UX, and a lighter footprint over Karma. It
+Testem](https://github.com/stefanpenner/ember-app-kit/pull/292) courtesy of [@cavnev (Eric Berry)](https://github.com/cavneb). Testem offers a better UX, and a lighter footprint over Karma, and is a more mature project. It
 doesn't support code coverage (that's being taken care of right now,
 though), but you won't believe how much better you'll feel testing your
 application. Let me show you.
@@ -99,6 +98,18 @@ interface instead.
 
 ![Fixing the Test Suite pt2](/public/assets/images/first-green-tests-browser.png "Test Server
 powered by Testem")
+
+## Content is King(tm)
+
+First, let's delete the stub tests.
+
+#### Before
+![Removing Dummy Tests](/public/assets/images/dummy-tests-before.png "Test Server
+powered by Testem")
+#### After
+![Removing Dummy Tests pt2](/public/assets/images/dummy-tests-after.png "Test Server
+powered by Testem")
+
 
 # Contributors
 
