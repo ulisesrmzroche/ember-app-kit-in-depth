@@ -59,16 +59,13 @@ tests to fail.
 ![Broken Test Suite](/public/assets/images/first-tests-thumb-1.png "Broken Tests")
 
 EAK's Test Suite is powered by [Testem](https://github.com/airportyh/testem), [QUnit](qunitjs.com), and [Ember Testing](http://emberjs.com/guides/testing/integration/)
-There is also an API stub that you can use as a functioning spec for your
-real REST backend. This lets you have all the benefits of fixtures while
-using the REST adapter.
+There is also an API stub that you can use as a functioning REST spec for your
+real backend.
 
 Until recently, the test suite was backed by [the Karma test
 runner](http://karma-runner.github.io/0.10/index.html) but was recently
 [switched to
-Testem](https://github.com/stefanpenner/ember-app-kit/pull/292) courtesy of [@cavnev (Eric Berry)](https://github.com/cavneb).
-
-Testem offers a better UX, and a lighter footprint over Karma. It
+Testem](https://github.com/stefanpenner/ember-app-kit/pull/292) courtesy of [@cavnev (Eric Berry)](https://github.com/cavneb). Testem offers a better UX, and a lighter footprint over Karma. It
 doesn't support code coverage (that's being taken care of right now,
 though), but you won't believe how much better you'll feel testing your
 application. Let me show you.
@@ -98,7 +95,10 @@ tests, and you'll see that our test suite is now passing.
 powered by Testem")
 
 The tests are also run in the browser, if you prefer to use that
-interface.
+interface instead.
+
+![Fixing the Test Suite pt2](/public/assets/images/first-green-tests-browser.png "Test Server
+powered by Testem")
 
 # Contributors
 
