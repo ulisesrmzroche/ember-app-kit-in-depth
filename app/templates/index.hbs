@@ -1,5 +1,11 @@
-<ul>
-{{#each}}
-  <li>{{this}}</li>
-{{/each}}
-</ul>
+<section id='posts'>
+  <ul>
+  {{#each}}
+    {{this}}
+  {{else}}
+    <li class='alert'>
+      No Posts Were Found
+    </li>
+  {{/each}}
+  </ul>
+</section>

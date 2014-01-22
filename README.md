@@ -35,11 +35,11 @@ You'll need to have [Git](http://git-scm.com/),
 
 Now, [download the
 project](https://github.com/stefanpenner/ember-app-kit/archive/master.zip)
-and run `npm install` to setup all of its required dependencies. Finally, run `grunt server` and point your browser to [http://localhost:8000](http://localhost:8000).
+and run `npm install` to setup all required dependencies. Finally, run `grunt server` and point your browser to [http://localhost:8000](http://localhost:8000).
 
 ![Hello World](/public/assets/images/thumb-1.png "Hello World")
 
-We have a functional, ember application in less than four sentences. One
+We have a functional, ember app in less than four sentences. One
 quick thing. Open `app/templates/application.hbs` and change the title to whatever you want. Then, save the file
 and switch back to your browser, letting Live Reload automatically
 refresh the page for you.
@@ -110,6 +110,32 @@ powered by Testem")
 ![Removing Dummy Tests pt2](/public/assets/images/dummy-tests-after.png "Test Server
 powered by Testem")
 
+Let's start by writing a failing acceptance for our blog posts. Inside of `tests/acceptance/index_test`, write the following test.
+
+![First Custom Test](/public/assets/images/first-custom-test.png "First Custom Test")
+
+Run the tests again, and you'll see they're all passing. That's pretty
+simple, and required no real code changes. Now, let's show an notice
+telling us that it found no blog posts.
+
+![Second Custom Test](/public/assets/images/second-custom-test.png "Second Custom Test")
+
+Go to `app/templates/index.hbs' and remove all of the code inside of the
+template. Replace it with the following.
+
+![Code Screenshot](/public/assets/images/blog-posts-templates-screen.png "Second Custom Test")
+
+Now, let's write a failing acceptance test for the actual blog post.
+Given we have no blog posts, as it is now, we should show a notice
+telling us so.
+
+The syntax is pretty simple. Async testing We visit a page, then we make
+some assertions. We find a blog-posts component
+
+IN order
+Now, lets write some tests. For the index page, we are going to all blog
+posts.
+latest post in full, a twitter timeline, and a list of recent posts.
 
 # Contributors
 
